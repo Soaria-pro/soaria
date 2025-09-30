@@ -1,0 +1,11 @@
+{
+  "name": "soaria",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:web": "npm run dev --workspace web",
+    "dev:app": "npm run dev --workspace app",
+    "build:web": "npm run build --workspace web",
+    "build:app": "npm run build --workspace app"
+  }
+}
