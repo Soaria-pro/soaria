@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@soaria/ui";
+import { Button } from "../components/Button";
 
 export default function Page() {
   return (
